@@ -16,13 +16,13 @@ html>body .content {
   height:auto;
 }
 
-/** red: #C8102E, gold: #F1BE48 **/
+/** red: #C8102E, gold: #F1BE48, grey: #888888 **/
 #two {
     background: #F1BE48;
 }
 
 #three{
-    background: #888888;
+    background: #C8102E;
 }
 
 /* --- */
