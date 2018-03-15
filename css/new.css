@@ -1,0 +1,42 @@
+.landing {
+  background-image: url('../img/showcase_1.jpg');
+  background-position: center center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.title {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1{
+  font-size: 50px;
+}
+
+.title a{
+  margin-left: 137px
+}
+
+#address{
+  font-size: 14px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .title h1{
+      font-size: 40px;
+    }
+    .title a{
+      margin-left: 113px;
+    }
+}
